@@ -15,7 +15,9 @@ Enter the commandline and run:
 Navigate to the directory containing the modules using the terminal and run:
 
 `chmod +x encryptic.py`
+
 `chmod +x decryptic.py`
+
 `chmod +x new_decryption_key.py`
 
 Then launch module, using for example:
