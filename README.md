@@ -12,6 +12,17 @@ Enter the commandline and run:
 
 `pip3 install python3.8`
 
+Navigate to the directory containing the modules using the terminal and run:
+
+`chmod +x encryptic.py`
+`chmod +x decryptic.py`
+`chmod +x new_decryption_key.py`
+
+Then launch module, using for example:
+
+`./encryption.py`
+
+
 NOTE: Make sure the files you are working with are in the same directory as the modules.
 
 
