@@ -27,8 +27,8 @@ def decrypt():
 
     try:
         while current_dir:
-            file_name = input("[*] Name of file to be decrypted: ")
-            print(file_name)
+            file_name = input("\n[*] Name of file to be decrypted: ")
+
             try:
                 def load_key():
                     return open(input("[*] Enter name of key file: "), "rb").read()
@@ -45,7 +45,7 @@ def decrypt():
                     decrypted_data = f.decrypt(encrypted_data)
                     with open(fn, "wb") as file:
                         file.write(decrypted_data)
-                    print(">>> Deryption successfull")
+                    print("\n>>> Decryption successful")
 
                 dec()
             except Exception as e:

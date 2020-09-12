@@ -1,7 +1,7 @@
 ##### **CRYPTIC**
 
 
-CRYPTIC is a simple software used encrypt and decrypt files.
+CRYPTIC is a simple software used encrypt and decrypt files. FOR LINUX.
 
 
 #### **USAGE:**

@@ -27,8 +27,8 @@ def encrypt():
 
     try:
         while current_dir:
-            file_name = input("[*] Name of file to be encrypted: ")
-            print(file_name)
+            file_name = input("\n[*] Name of file to be encrypted: ")
+
             try:
                 def load_key():
                     return open(input("[*] Enter name of key file: "), "rb").read()
@@ -45,7 +45,7 @@ def encrypt():
 
                     with open(fn, "wb") as file:
                         file.write(encrypted_data)
-                        print(">>> Ecryption successfull")
+                        print("\n>>> Encryption successful")
 
                 enc()
             except Exception as e:

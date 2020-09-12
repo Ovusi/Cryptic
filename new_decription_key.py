@@ -31,6 +31,7 @@ def new_key():
     key = Fernet.generate_key()
     with open(input("Enter name of new encryption key: "), "wb") as key_file:
         key_file.write(key)
+        print("Key created successfully. Please keep safely.")
 
 
 new_key()
