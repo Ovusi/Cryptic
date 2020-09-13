@@ -23,7 +23,7 @@ def banner():
 
 def decrypt():
     current_dir = os.getcwd()
-    print("Current directory is " + current_dir)
+    print("\nCurrent directory is " + current_dir)
 
     try:
         while current_dir:

@@ -10,7 +10,7 @@ Download this repository..,,
 
 Enter the commandline and run:
 
-`pip3 install python3.8`
+`sudo apt install python3.8`
 
 Navigate to the directory containing the modules using the terminal and run:
 

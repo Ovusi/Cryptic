@@ -18,12 +18,12 @@ def banner():
                 .   .   .   .   .   .""")
 
     print("\nCryptic -- File encryption and decryption software."
-          "\n----------------------------------------")
+          "\n---------------------------------------------------")
 
 
 def encrypt():
     current_dir = os.getcwd()
-    print("Current directory is " + current_dir)
+    print("\nCurrent directory is " + current_dir)
 
     try:
         while current_dir:
